@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../images/concrete_seamless.png");
+    background-size: cover;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    z-index: 1;
+}
+
+.container {
+    height: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding: 0px;
+}
+
+.col-name {
+    height: 97px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    vertical-align: middle;
+}
+
+.col-name h1 {
+    height: 97px;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 97px;
+}
+
+.col-navigation {
+    text-align: right;
+}
+
+.col-navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #777777;
+    font-size: 22px;
+}
+
+.col-navigation a:hover {
+    color: #4aaaa5;
+}
+
+.content {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    border: 1px solid #dddddd;
+}
+
+.col-content {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    background-color: white;
+} 
+
+.col-content input {
+    width: 100%;
+}
+
+.col-content textarea {
+        width: 100%;
+        overflow: auto;
+        resize: none;
+}
+
+.col-title {
+    background-color: white;
+    color: #4aaaa5;
+}
+
+.col-title h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.col-content img {
+    float: left;
+    height: 100px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.col-footer {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    background-color: #666666;
+    border-top: 10px solid teal;
+    text-align: center;
+    color: #cccccc;
+}
+
+.col-footer p {
+    line-height: 60px;
+    padding: 0px;
+}
+
+.col-projects {
+    background-color: white;
+    padding: 20px;
+}
+
+.col-projects h2 {
+    width: 250px;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.col-content button {
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+}
+
+.col-content button:hover {
+    color: black
+}
